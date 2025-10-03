@@ -17,4 +17,5 @@ urlpatterns = [
         {"sitemaps": sitemaps},
         name="django.contrib.sitemaps.views.sitemap",
     ),
+    path("api/", include("blog_api.urls")),
 ]
